@@ -1,0 +1,60 @@
+body{
+    background-color:#DDA0DD;
+    text-align: center;
+    margin: 100px 40px 10px 70px;
+}
+h1{
+    color:#8b008b;
+    font-family: 'Dancing Script';
+    font-size: 34pt;
+}
+span{
+    color:#8b008b;
+    font-family: 'Dancing Script';
+    font-size: 34pt;
+}
+h2{
+    color:#c71585;
+    font-family: 'Dancing Script';
+    font-size: 24pt;
+}
+img{
+    width: 200px;   
+}
+.moldura{
+    border-style: dotted;
+    border-color: #8b008b;
+    border-width: 4pt;
+}
+.poema{
+    font-family: 'Aclonica';
+    color: #4d014d;
+}
+.esquerda{
+    text-align: left;
+}
+#imesq{
+    float: left;
+    width: 20%;
+}
+#txtdir{
+    float: right;
+    width: 80%;
+    padding-top: 50px;
+}
+.espaco{
+    
+    margin-top: 40px;
+}
+.caixa {
+    height: 350px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+  }
+  .caixa2 {
+    height: 700px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+  }
