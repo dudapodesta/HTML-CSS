@@ -1,0 +1,173 @@
+body{
+    background-color:#DDA0DD;
+    text-align: center;
+    margin: 100px 40px 10px 70px;
+}
+h1{
+    color:#8b008b;
+    font-family: 'Dancing Script';
+    font-size: 34pt;
+}
+span{
+    color:#8b008b; 
+    font-family: 'Dancing Script';
+    font-size: 34pt;
+}
+h2{
+    color:#c71585;
+    font-family: 'Dancing Script';
+    font-size: 24pt;
+}
+img{
+    width: 200px;   
+}
+.moldura{
+    border-style: dotted;
+    border-color: #8b008b;
+    border-width: 4pt;
+}
+.poema{
+    font-family: 'Aclonica';
+    color: #4d014d;
+}
+.esquerda{
+    text-align: left;
+}
+#imesq{
+    float: left;
+    width: 20%;
+}
+#txtdir{
+    float: right;
+    width: 80%;
+    padding-top: 50px;
+}
+.espaco{
+    
+    margin-top: 40px;
+}
+.caixa {
+    height: 350px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    /*border-color: #4d014d;
+    border-width: 2pt;
+    border-style: dashed;*/
+  }
+  .caixa2 {
+    height: 700px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+  }
+
+
+
+.container-flex {
+    display: flex; 
+    height: 100vh;
+}
+.colunaE {
+    float: left;
+    width: 27%; 
+    height: 100vh;
+}
+.colunaD {
+    float: right;
+    width: 73%; 
+    height: 100vh;
+}
+/* Menu principal */
+nav {
+    color: #ffffff;
+	background: #4d014d;
+	padding: 5px;
+	border: 1px solid #ccc;
+	font-family:'Dancing Script';
+	font-size:20px;
+
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  nav ul li {
+    position: relative; /* Necessário para posicionar submenus */
+  }
+
+  nav ul li a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+  }
+
+  nav ul li a:hover {
+  color: #ffffff;
+	background: #4d014d;
+	padding: 5px;
+	border: 1px solid #ccc;
+	font-family:'Dancing Script';
+	font-size:20px;
+
+  }
+
+  /* Submenu (escondido por padrão) */
+  nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%; /* Fica logo abaixo do item principal */
+  left: 0;
+  min-width: 180px;
+	text-decoration: none;
+	color: #ffffff;
+	background: #4d014d;
+	padding: 5px;
+	border: 1px solid #ccc;
+	font-family:'Dancing Script';
+	font-size:20px;
+
+  }
+
+  nav ul ul li {
+    width: 100%;
+  }
+
+  /* Mostra o submenu quando passa o mouse */
+  nav ul li:hover > ul {
+    display: block;
+  }
+  /* Mostra o submenu quando passa o mouse */
+  nav ul ul li:hover > ul {
+    display: block;
+  }
+
+  /* Submenu de nível 2 (em cascata) */
+  nav ul ul ul {
+    left: 100%;
+    top: 0;
+  }
+  
+
+  /* Adiciona um pequeno efeito visual */
+  nav ul ul li a:hover {
+    color: #ffffff;
+	background: #4d014d;
+	padding: 5px;
+	border: 1px solid #ccc;
+	font-family:'Dancing Script';
+	font-size:20px;
+
+  }
+  .container-lista {
+    display: flex; 
+    justify-content: center; 
+    font-family:'Dancing Script';
+    font-size:25px;
+    color: #4d014d;
+}
